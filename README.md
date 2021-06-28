@@ -2,7 +2,7 @@
 
 # Generate Unix Domain Socket
 
-**gen_named_pipe** is tool for generation of unix domain socket.
+**gen_named_pipe** is tool for generation of named pipe modules.
 
 Developed in **[python](https://www.python.org/)** code: **100%**.
 
