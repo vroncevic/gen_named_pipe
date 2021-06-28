@@ -34,6 +34,7 @@ __maintainer__ = 'Vladimir Roncevic'
 __email__ = 'elektron.ronca@gmail.com'
 __status__ = 'Updated'
 
+
 def install_directory():
     '''
         Return the installation directory, or None.
@@ -72,6 +73,7 @@ def install_directory():
     )
     print(message)
     return None
+
 
 INSTALL_DIR = install_directory()
 TOOL_DIR = 'gen_named_pipe/'
@@ -115,7 +117,7 @@ setup(
         'gen_named_pipe', 'gen_named_pipe.pro', 'gen_named_pipe.pro.config'
     ],
     install_requires=['ats-utilities'],
-    package_data = {
+    package_data={
         'gen_named_pipe': [
             'conf/gen_named_pipe.cfg',
             'conf/gen_named_pipe_util.cfg',
