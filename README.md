@@ -94,7 +94,32 @@ Base flow of generation process:
 Generator structure:
 
 ```
-
+gen_named_pipe/
+├── conf/
+│   ├── gen_named_pipe.cfg
+│   ├── gen_named_pipe_util.cfg
+│   ├── project.yaml
+│   └── template/
+│       └── posix/
+│           ├── np_close.template
+│           ├── np_make.template
+│           ├── np_open.template
+│           ├── np_read.template
+│           ├── np.template
+│           └── np_write.template
+├── __init__.py
+├── log/
+│   └── gen_named_pipe.log
+├── pro/
+│   ├── config/
+│   │   ├── __init__.py
+│   │   ├── pro_name.py
+│   │   └── template_dir.py
+│   ├── __init__.py
+│   ├── read_template.py
+│   └── write_template.py
+└── run/
+    └── gen_named_pipe_run.py
 ```
 
 ### Docs
