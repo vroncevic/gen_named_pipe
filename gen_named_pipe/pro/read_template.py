@@ -107,10 +107,10 @@ class ReadTemplate(FileChecking, TemplateDir):
             raise ATSBadCallError(error)
         templates, modules, loaded_templates = None, None, []
         for configuration in config[ProConfig.TEMPLATES]:
-            if configuration.has_key(np_type):
+            if np_type in configuration:
                 templates = configuration[np_type]
         for configuration in config[ProConfig.MODULES]:
-            if configuration.has_key(np_type):
+            if np_type in configuration:
                 modules = configuration[np_type]
         for template_file, module_file in zip(templates, modules):
             template_content, template_file_path = None, None
