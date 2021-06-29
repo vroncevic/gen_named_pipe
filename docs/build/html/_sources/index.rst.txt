@@ -11,8 +11,8 @@ other information that should be provided before the modules are installed.
 
 |Python package| |GitHub issues| |Documentation Status| |GitHub contributors|
 
-.. |Python package| image:: https://github.com/vroncevic/gen_named_pipe/workflows/Python%20package/badge.svg
-   :target: https://github.com/vroncevic/gen_named_pipe/workflows/Python%20package/badge.svg?branch=master
+.. |Python package| image:: https://github.com/vroncevic/gen_named_pipe/workflows/Python%20package%20gen_named_pipe/badge.svg
+   :target: https://github.com/vroncevic/gen_named_pipe/workflows/Python%20package%20gen_named_pipe/badge.svg?branch=master
 
 .. |GitHub issues| image:: https://img.shields.io/github/issues/vroncevic/gen_named_pipe.svg
    :target: https://github.com/vroncevic/gen_named_pipe/issues
