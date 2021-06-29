@@ -94,9 +94,7 @@ int np_open(const char * path_name, int flags) __attribute__((nonnull (1)));
  * Standards:
  *     POSIX.1-2001, POSIX.1-2008
  */
-ssize_t np_read(
-    int file_descriptor, void * buffer, size_t count
-) __attribute__((nonnull (2)));
+ssize_t np_read(int file_descriptor, void * buffer, size_t count);
 
 /**
  * Description:
