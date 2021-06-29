@@ -88,7 +88,7 @@ Framework structure
 
 **gen_named_pipe** is based on OOP:
 
-.. image:: https://raw.githubusercontent.com/vroncevic/gen_named_pipe/dev/docs/arch_flow_usage.png
+.. image:: https://raw.githubusercontent.com/vroncevic/gen_named_pipe/dev/docs/gen_named_pipe_flow.png
 
 Framework structure:
 
