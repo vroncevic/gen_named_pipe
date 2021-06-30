@@ -40,7 +40,7 @@ __author__ = 'Vladimir Roncevic'
 __copyright__ = 'Copyright 2020, https://vroncevic.github.io/gen_named_pipe'
 __credits__ = ['Vladimir Roncevic']
 __license__ = 'https://github.com/vroncevic/gen_named_pipe/blob/dev/LICENSE'
-__version__ = '1.0.3'
+__version__ = '1.0.4'
 __maintainer__ = 'Vladimir Roncevic'
 __email__ = 'elektron.ronca@gmail.com'
 __status__ = 'Updated'
@@ -89,7 +89,7 @@ class ReadTemplate(FileChecking, TemplateDir):
 
             :param config: parameter file name.
             :type config: <dict>
-            :param np_type: parameter UDS type.
+            :param np_type: parameter NP type.
             :type np_type: <str>
             :param verbose: enable/disable verbose option.
             :type verbose: <bool>

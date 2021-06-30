@@ -39,7 +39,7 @@ __author__ = 'Vladimir Roncevic'
 __copyright__ = 'Copyright 2020, https://vroncevic.github.io/gen_named_pipe'
 __credits__ = ['Vladimir Roncevic']
 __license__ = 'https://github.com/vroncevic/gen_named_pipe/blob/dev/LICENSE'
-__version__ = '1.0.3'
+__version__ = '1.0.4'
 __maintainer__ = 'Vladimir Roncevic'
 __email__ = 'elektron.ronca@gmail.com'
 __status__ = 'Updated'
@@ -53,7 +53,6 @@ class WriteTemplate(FileChecking):
 
             :attributes:
                 | GEN_VERBOSE - console text indicator for process-phase.
-                | __setup - setup file path.
             :methods:
                 | __init__ - initial constructor.
                 | write - write setup content to files.
