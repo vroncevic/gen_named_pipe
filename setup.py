@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-"""
+'''
  Module
      setup.py
  Copyright
@@ -18,7 +18,7 @@
      with this program. If not, see <http://www.gnu.org/licenses/>.
  Info
      Define setup for tool gen_named_pipe.
-"""
+'''
 
 from __future__ import print_function
 import sys
@@ -119,6 +119,7 @@ setup(
     install_requires=['ats-utilities'],
     package_data={
         'gen_named_pipe': [
+            'conf/gen_named_pipe.logo',
             'conf/gen_named_pipe.cfg',
             'conf/gen_named_pipe_util.cfg',
             'conf/project.yaml',
