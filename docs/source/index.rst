@@ -25,7 +25,7 @@ other information that should be provided before the modules are installed.
 
 .. toctree::
    :maxdepth: 4
-   :caption: Contents:
+   :caption: Contents
 
    self
    modules
@@ -45,7 +45,7 @@ Navigate to release `page`_ download and extract release archive.
 
 .. _page: https://github.com/vroncevic/gen_named_pipe/releases
 
-To install package type the following:
+To install package type the following
 
 .. code-block:: bash
 
@@ -62,7 +62,7 @@ To install package type the following:
     python setup.py install_data
     python3 setup.py install_egg_info
 
-You can use Docker to create image/container, or You can use pip to install:
+You can use Docker to create image/container, or You can use pip to install
 
 .. code-block:: bash
 
@@ -79,23 +79,24 @@ You can use Docker to create image/container, or You can use pip to install:
 Dependencies
 -------------
 
-**gen_named_pipe** requires next modules and libraries:
+**gen_named_pipe** requires next modules and libraries
 
 * `ats-utilities - Python App/Tool/Script Utilities <https://pypi.org/project/ats-utilities/>`_
 
 Framework structure
 --------------------
 
-**gen_named_pipe** is based on OOP:
+**gen_named_pipe** is based on OOP
 
 .. image:: https://raw.githubusercontent.com/vroncevic/gen_named_pipe/dev/docs/gen_named_pipe_flow.png
 
-Framework structure:
+Framework structure
 
 .. code-block:: bash
 
     gen_named_pipe/
     ├── conf/
+    │   ├── gen_named_pipe.logo
     │   ├── gen_named_pipe.cfg
     │   ├── gen_named_pipe_util.cfg
     │   ├── project.yaml
