@@ -32,7 +32,7 @@ other information that should be provided before the modules are installed.
 
 ![Install Python2 Package](https://github.com/vroncevic/gen_named_pipe/workflows/Install%20Python2%20Package%20gen_named_pipe/badge.svg?branch=master) ![Install Python3 Package](https://github.com/vroncevic/gen_named_pipe/workflows/Install%20Python3%20Package%20gen_named_pipe/badge.svg?branch=master)
 
-Currently there are three ways to install tool:
+Currently there are three ways to install tool
 * Install process based on pip
 * Install process based on setup.py (setuptools)
 * Install process based on docker mechanism
@@ -77,25 +77,26 @@ You can use docker to create image/container.
 
 ### Dependencies
 
-**gen_named_pipe** requires next modules and libraries:
+**gen_named_pipe** requires next modules and libraries
 
 * [ats-utilities - Python App/Tool/Script Utilities](https://vroncevic.github.io/ats_utilities)
 
 ### Generation flow of py module
 
-Base flow of generation process:
+Base flow of generation process
 
 ![alt tag](https://raw.githubusercontent.com/vroncevic/gen_named_pipe/dev/docs/gen_named_pipe_flow.png)
 
 ### Tool structure
 
-**gen_named_pipe** is based on OOP:
+**gen_named_pipe** is based on OOP
 
-Generator structure:
+Generator structure
 
 ```
 gen_named_pipe/
 ├── conf/
+│   ├── gen_named_pipe.logo
 │   ├── gen_named_pipe.cfg
 │   ├── gen_named_pipe_util.cfg
 │   ├── project.yaml
@@ -126,7 +127,7 @@ gen_named_pipe/
 
 [![Documentation Status](https://readthedocs.org/projects/gen_named_pipe/badge/?version=latest)](https://gen_named_pipe.readthedocs.io/projects/gen_named_pipe/en/latest/?badge=latest)
 
-More documentation and info at:
+More documentation and info at
 * [gen_named_pipe.readthedocs.io](https://gen_named_pipe.readthedocs.io/en/latest/)
 * [www.python.org](https://www.python.org/)
 
