@@ -57,13 +57,19 @@
  * Standards:
  *     POSIX.1-2001, POSIX.1-2008
  */
-int np_make(const char * path_name, mode_t mode) {
+int np_make(const char * path_name, mode_t mode)
+{
     int status;
-    if (path_name != NULL && mode >= 0) {
+
+    if (path_name != NULL && mode >= 0)
+    {
         status = mkfifo(path_name, mode);
-    } else {
+    }
+    else
+    {
         status = NP_ERROR;
     }
+
     return status;
 }
 
