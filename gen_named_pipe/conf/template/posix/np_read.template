@@ -70,13 +70,19 @@
  * Standards:
  *     POSIX.1-2001, POSIX.1-2008
  */
-ssize_t np_read(int file_descriptor, void * buffer, size_t count) {
+ssize_t np_read(int file_descriptor, void * buffer, size_t count)
+{
     ssize_t number_of_bytes;
-    if (file_descriptor >= 0) {
+
+    if (file_descriptor >= 0)
+    {
         number_of_bytes = read(file_descriptor, buffer, count);
-    } else {
+    }
+    else
+    {
         number_of_bytes = NP_ERROR;
     }
+
     return number_of_bytes;
 }
 

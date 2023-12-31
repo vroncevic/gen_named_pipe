@@ -40,13 +40,19 @@
  * Standards:
  *     POSIX.1-2001, POSIX.1-2008
  */
-int np_close(int file_descriptor) {
+int np_close(int file_descriptor)
+{
     int status;
-    if (file_descriptor >= 0) {
+
+    if (file_descriptor >= 0)
+    {
         status = close(file_descriptor);
-    } else {
+    }
+    else
+    {
         status = NP_ERROR;
     }
+
     return status;
 }
 

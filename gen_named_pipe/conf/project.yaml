@@ -6,7 +6,6 @@ templates:
     - np_read.template
     - np_write.template
     - np_close.template
-  - cancel: null
 
 modules:
   - posix:

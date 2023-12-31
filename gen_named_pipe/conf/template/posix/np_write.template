@@ -104,13 +104,19 @@
  * Standards:
  *     POSIX.1-2001, POSIX.1-2008
  */
-ssize_t np_write(int file_descriptor, const void * buffer, size_t count) {
+ssize_t np_write(int file_descriptor, const void * buffer, size_t count)
+{
     ssize_t number_of_bytes;
-    if (file_descriptor >= 0 && buffer != NULL) {
+
+    if (file_descriptor >= 0 && buffer != NULL)
+    {
         number_of_bytes = write(file_descriptor, buffer, count);
-    } else {
+    }
+    else
+    {
         number_of_bytes = NP_ERROR;
     }
+
     return number_of_bytes;
 }
 

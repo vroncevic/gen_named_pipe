@@ -154,13 +154,19 @@
  * Standards:
  *     POSIX.1-2001, POSIX.1-2008
  */
-int np_open(const char * path_name, int flags) {
+int np_open(const char * path_name, int flags)
+{
     int file_descriptor;
-    if (path_name != NULL && flags >= 0) {
+
+    if (path_name != NULL && flags >= 0)
+    {
         file_descriptor = open(path_name, flags);
-    } else {
+    }
+    else
+    {
         file_descriptor = NP_ERROR;
     }
+
     return file_descriptor;
 }
 

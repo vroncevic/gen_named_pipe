@@ -5,13 +5,15 @@ Subpackages
 -----------
 
 .. toctree::
+   :maxdepth: 4
 
-    gen_named_pipe.pro
+   gen_named_pipe.pro
 
 Module contents
 ---------------
 
 .. automodule:: gen_named_pipe
-    :members:
-    :undoc-members:
-    :show-inheritance:
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :private-members:
