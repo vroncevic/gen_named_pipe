@@ -37,7 +37,7 @@ __author__ = 'Vladimir Roncevic'
 __copyright__ = '(C) 2024, https://vroncevic.github.io/gen_named_pipe'
 __credits__: List[str] = ['Vladimir Roncevic', 'Python Software Foundation']
 __license__ = 'https://github.com/vroncevic/gen_named_pipe/blob/dev/LICENSE'
-__version__ = '1.1.6'
+__version__ = '1.1.7'
 __maintainer__ = 'Vladimir Roncevic'
 __email__ = 'elektron.ronca@gmail.com'
 __status__ = 'Updated'
@@ -111,16 +111,15 @@ class ReadTemplate(FileCheck):
             raise ATSValueError('missing project type')
         current_dir: str = dirname(realpath(__file__))
         pro_structure: str = f'{current_dir}{self._TEMPLATE_DIR}'
-        template_dir = f'{pro_structure}{pro_type}/'
+        template_dir: str = f'{pro_structure}{pro_type}/'
         template_content: Dict[str, str] = {}
-        templates: List[str] = []
         index: int = -1
         if pro_type in config['modules'][0]:
             index = 0
         else:
             return template_content
-        modules = config['modules'][index][pro_type]
-        templates = config['templates'][index][pro_type]
+        modules: List[str] = config['modules'][index][pro_type]
+        templates: List[str] = config['templates'][index][pro_type]
         for module, template in zip(modules, templates):
             template_file: str = f'{template_dir}{template}'
             with open(template_file, 'r', encoding='utf-8') as module_file:

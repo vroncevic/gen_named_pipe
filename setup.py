@@ -29,7 +29,7 @@ __author__ = 'Vladimir Roncevic'
 __copyright__ = '(C) 2024, https://vroncevic.github.io/gen_named_pipe'
 __credits__: List[str] = ['Vladimir Roncevic', 'Python Software Foundation']
 __license__ = 'https://github.com/vroncevic/gen_named_pipe/blob/dev/LICENSE'
-__version__ = '1.1.6'
+__version__ = '1.1.7'
 __maintainer__ = 'Vladimir Roncevic'
 __email__ = 'elektron.ronca@gmail.com'
 __status__ = 'Updated'
@@ -61,7 +61,7 @@ APPROVED_LICENSES: List[str] = [
 PYP_CLASSIFIERS: List[str] = SUPPORTED_PY_VERSIONS + APPROVED_LICENSES
 setup(
     name='gen_named_pipe',
-    version='1.1.6',
+    version='1.1.7',
     description='Generating Named Pipe Modules',
     author='Vladimir Roncevic',
     author_email='elektron.ronca@gmail.com',
@@ -76,6 +76,7 @@ setup(
     install_requires=['ats-utilities'],
     package_data={
         'gen_named_pipe': [
+            'py.typed',
             f'{CONF}/gen_named_pipe.logo',
             f'{CONF}/gen_named_pipe.cfg',
             f'{CONF}/gen_named_pipe_util.cfg',

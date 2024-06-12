@@ -1,7 +1,7 @@
 /* -*- Mode: C; indent-tabs-mode: t; c-basic-offset: 4; tab-width: 4 -*-  */
 /*
  * np_write.c
- * Copyright (C) 2023 Vladimir Roncevic <elektron.ronca@gmail.com>
+ * Copyright (C) 2024 Vladimir Roncevic <elektron.ronca@gmail.com>
  *
  * latest_pro is free software: you can redistribute it and/or modify it
  * under terms of GNU General Public License as published by the

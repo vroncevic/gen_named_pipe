@@ -1,6 +1,6 @@
-<img align="right" src="https://raw.githubusercontent.com/vroncevic/gen_named_pipe/dev/docs/gen_named_pipe_logo.png" width="25%">
-
 # Generate Named Pipe
+
+<img align="right" src="https://raw.githubusercontent.com/vroncevic/gen_named_pipe/dev/docs/gen_named_pipe_logo.png" width="25%">
 
 **gen_named_pipe** is tool for generation of named pipe modules.
 
