@@ -25,6 +25,7 @@ other information that should be provided before the modules are installed.
 
 .. |documentation status| image:: https://readthedocs.org/projects/gen_named_pipe/badge/?version=latest
    :target: https://gen-named-pipe.readthedocs.io/en/latest/?badge=latest
+
 .. toctree::
    :maxdepth: 4
    :caption: Contents
