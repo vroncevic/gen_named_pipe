@@ -109,31 +109,41 @@ Generator structure
 
 ```bash
     gen_named_pipe/
-        ├── conf/
-        │   ├── gen_named_pipe.cfg
-        │   ├── gen_named_pipe.logo
-        │   ├── gen_named_pipe_util.cfg
-        │   ├── project.yaml
-        │   └── template/
-        │       └── posix/
-        │           ├── np_close.template
-        │           ├── np_make.template
-        │           ├── np_open.template
-        │           ├── np_read.template
-        │           ├── np.template
-        │           └── np_write.template
-        ├── __init__.py
-        ├── log/
-        │   └── gen_named_pipe.log
-        ├── pro/
-        │   ├── __init__.py
-        │   ├── read_template.py
-        │   └── write_template.py
-        └── run/
-            └── gen_named_pipe_run.py
-        
+           ├── conf/
+           │   ├── gen_named_pipe.cfg
+           │   ├── gen_named_pipe.logo
+           │   ├── gen_named_pipe_util.cfg
+           │   ├── project.yaml
+           │   └── template/
+           │       └── posix/
+           │           ├── np_close.template
+           │           ├── np_make.template
+           │           ├── np_open.template
+           │           ├── np_read.template
+           │           ├── np.template
+           │           └── np_write.template
+           ├── __init__.py
+           ├── log/
+           │   └── gen_named_pipe.log
+           ├── pro/
+           │   ├── __init__.py
+           │   ├── read_template.py
+           │   └── write_template.py
+           └── run/
+               └── gen_named_pipe_run.py
+
         7 directories, 16 files
 ```
+
+### Code coverage
+
+| Name | Stmts | Miss | Cover |
+|------|-------|------|-------|
+| `gen_named_pipe/__init__.py` | 75 | 14 | 81% |
+| `gen_named_pipe/pro/__init__.py` | 62 | 2 | 97% |
+| `gen_named_pipe/pro/read_template.py` | 52 | 5 | 90% |
+| `gen_named_pipe/pro/write_template.py` | 54 | 4 | 93% |
+| **Total** | 243 | 25 | 90% |
 
 ### Docs
 
