@@ -23,6 +23,7 @@ other information that should be provided before the modules are installed.
     - [Install using docker](#install-using-docker)
 - [Dependencies](#dependencies)
 - [Tool structure](#tool-structure)
+- [Code coverage](#code-coverage)
 - [Docs](#docs)
 - [Contributing](#contributing)
 - [Copyright and licence](#copyright-and-licence)
@@ -139,11 +140,11 @@ Generator structure
 
 | Name | Stmts | Miss | Cover |
 |------|-------|------|-------|
-| `gen_named_pipe/__init__.py` | 75 | 14 | 81% |
-| `gen_named_pipe/pro/__init__.py` | 62 | 2 | 97% |
-| `gen_named_pipe/pro/read_template.py` | 52 | 5 | 90% |
-| `gen_named_pipe/pro/write_template.py` | 54 | 4 | 93% |
-| **Total** | 243 | 25 | 90% |
+| `gen_named_pipe/__init__.py` | 73 | 12 | 84%|
+| `gen_named_pipe/pro/__init__.py` | 60 | 0 | 100%|
+| `gen_named_pipe/pro/read_template.py` | 50 | 3 | 94%|
+| `gen_named_pipe/pro/write_template.py` | 52 | 2 | 96%|
+| **Total** | 235 | 17 | 93% |
 
 ### Docs
 
@@ -162,7 +163,7 @@ More documentation and info at
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Copyright (C) 2020 - 2024 by [vroncevic.github.io/gen_named_pipe](https://vroncevic.github.io/gen_named_pipe)
+Copyright (C) 2020 - 2026 by [vroncevic.github.io/gen_named_pipe](https://vroncevic.github.io/gen_named_pipe)
 
 **gen_named_pipe** is free software; you can redistribute it and/or modify
 it under the same terms as Python itself, either Python version 3.x or,
